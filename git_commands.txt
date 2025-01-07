@@ -1,8 +1,8 @@
 git status - what and where is (branch and file)
-git add <file> - to add file to commitment
+git add <file> - to add file to index (commitment)
 git restore --staged <file> - to cancel update of commitment
-git commit -m "comment for this commitment" - to send commit (update version) to git with message (-m)
+git commit -m "comment for this commitment" - to send commit (update version) to git + with message (-m)
 git log - to check logs
 
-git push - to synchronize local repository with remote repository
+git push - to submin to github (to synchronize local repository with remote repository)
 git pull - update local repository from remote repository
