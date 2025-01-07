@@ -3,4 +3,6 @@ git add <file> - to add file to commitment
 git restore --staged <file> - to cancel update of commitment
 git commit -m "comment for this commitment" - to send commit (update version) to git with message (-m)
 git log - to check logs
+
 git push - to synchronize local repository with remote repository
+git pull - update local repository from remote repository
