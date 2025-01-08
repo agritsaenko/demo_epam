@@ -16,3 +16,15 @@ gitk& - for launching gitk UI
 git show -s -pretty=raw <few letters from commit hash-number> - shows tree and parent of the commit
 git ls-tree <few letters from commit's tree hash-number> - shows blobs in this tree
 git show <few letters from commit hash-number> - shows content of the commit itself
+
+to cancel and discard changes:
+in working directory:
+	git status - to show where was changes 
+	git checkout -- <file name> - to discard changes in some file
+	git checkout . - to discard changes in all files in directory
+	git clean -xdf - to clean NEW files which wasn't submit to GitHub yet (x - extension files, d - directories, f - force - mandatory for clean - without f nothing will happen
+in staging area:
+	git reset -- <file name>
+in local branch:
+	git commit -- amend -m "commit message" - to cancel previous version
+	git reset HEAD^^^ (OR HEAD~3) - to cancel previous 3 versions
