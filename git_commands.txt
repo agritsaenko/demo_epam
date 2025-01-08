@@ -9,3 +9,6 @@ git log - to check logs
 
 git push - to submin to github (to synchronize local repository with remote repository)
 git pull - update local repository from remote repository
+
+git gui& - for launching gitgui UI
+gitk& - for launching gitk UI
