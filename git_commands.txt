@@ -30,3 +30,5 @@ in local branch:
 	git reset HEAD^^^ (OR HEAD~3) - to cancel previous 3 versions
 remote repository:
 	git revert <sha1 of the commit we want to revert>
+
+bla-bla-bla
