@@ -1,3 +1,6 @@
+cd /c/Users/a.gritsaenko/Documents/PY/epam/demo_epam - to open folder with files
+
+
 git status - what and where is (branch and file)
 git add <file> - to add file to index (commitment)
 git restore --staged <file> - to cancel update of commitment
