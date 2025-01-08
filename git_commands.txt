@@ -12,3 +12,7 @@ git pull - update local repository from remote repository
 
 git gui& - for launching gitgui UI
 gitk& - for launching gitk UI
+
+git show -s -pretty=raw <few letters from commit hash-number> - shows tree and parent of the commit
+git ls-tree <few letters from commit's tree hash-number> - shows blobs in this tree
+git show <few letters from commit hash-number> - shows content of the commit itself
