@@ -27,6 +27,10 @@ in staging area:
 	git reset -- <file name>
 in local branch:
 	git commit -- amend -m "commit message" - to cancel previous version
+<<<<<<< HEAD
 	git reset HEAD^^^ (OR HEAD~3) - to cancel previous 3 versions
 remote repository:
 	git revert <sha1 of the commit we want to revert>
+=======
+	git reset HEAD^^^ (OR HEAD~3) - to cancel previous 3 versions
+>>>>>>> c7774f964f594f53aebd75240c9cc3459ae47caf
