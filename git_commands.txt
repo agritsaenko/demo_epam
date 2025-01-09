@@ -33,3 +33,7 @@ remote repository:
 
 
 To ignore some file (with .jpg extension or .log) we can use file .gitignore where can write nessesaru conditions.
+
+
+
+git merge <feature_name> - to merge branch in some other branch or to main - use this command in branch to which need to merge all changes
