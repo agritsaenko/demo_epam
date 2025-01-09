@@ -33,3 +33,8 @@ remote repository:
 
 
 To ignore some file (with .jpg extension or .log) we can use file .gitignore where can write nessesaru conditions.
+
+
+
+Branching and merge:
+git checkout -b <name_of_branch> - flag -b means that it's a branch
