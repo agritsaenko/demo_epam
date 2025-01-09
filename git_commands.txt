@@ -26,7 +26,7 @@ in working directory:
 in staging area:
 	git reset -- <file name>
 in local branch:
-	git commit -- amend -m "commit message" - to cancel previous version
+	git commit --amend -m "commit message" - to cancel previous version
 	git reset HEAD^^^ (OR HEAD~3) - to cancel previous 3 versions
 remote repository:
 	git revert <sha1 of the commit we want to revert>
@@ -45,3 +45,10 @@ git merge <feature_name> - to merge branch in some other branch or to main - use
 
 Non fast-forward merge:
 git merge <feature_name> - but here will display window with message abot merging
+
+Conflicts in merging - git will show conflict and asks to make a decision - it will show what part is in "main" and what is in "branch" and ask to think about and fixit by yourself.
+
+git merge --abort - to abort merging
+git checkout --Xours --Wtheirs - make decision which version is correct ours OR theirs - and git will apply chosen version
+git diff - manual resolving
+git revert <HASH-code> - undo merge
