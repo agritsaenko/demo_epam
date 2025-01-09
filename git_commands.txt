@@ -38,3 +38,5 @@ To ignore some file (with .jpg extension or .log) we can use file .gitignore whe
 
 Branching and merge:
 git checkout -b <name_of_branch> - flag -b means that it's a branch
+
+git checkout master - to switch from branch to master
