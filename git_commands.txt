@@ -55,3 +55,9 @@ git merge --continue - to accept changes
 git checkout --Xours --Xtheirs - make decision which version is correct ours OR theirs - and git will apply chosen version
 git diff - manual resolving
 git revert <HASH-code> - undo merge
+
+Tags:
+git tag <name_of_tag> - mark commit with tag
+git tag -list - to view list of tags
+git push --tags - push tags to repository
+git checkout <name_of_tag> - to check it out through tags but to HASH-number
