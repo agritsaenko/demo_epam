@@ -46,9 +46,12 @@ git merge <feature_name> - to merge branch in some other branch or to main - use
 Non fast-forward merge:
 git merge <feature_name> - but here will display window with message abot merging
 
+git branch --all - show all branches in repository
+
 Conflicts in merging - git will show conflict and asks to make a decision - it will show what part is in "main" and what is in "branch" and ask to think about and fixit by yourself.
 
 git merge --abort - to abort merging
+git merge --continue - to accept changes
 git checkout --Xours --Xtheirs - make decision which version is correct ours OR theirs - and git will apply chosen version
 git diff - manual resolving
 git revert <HASH-code> - undo merge
