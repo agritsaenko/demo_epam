@@ -49,6 +49,6 @@ git merge <feature_name> - but here will display window with message abot mergin
 Conflicts in merging - git will show conflict and asks to make a decision - it will show what part is in "main" and what is in "branch" and ask to think about and fixit by yourself.
 
 git merge --abort - to abort merging
-git checkout --Xours --Wtheirs - make decision which version is correct ours OR theirs - and git will apply chosen version
+git checkout --Xours --Xtheirs - make decision which version is correct ours OR theirs - and git will apply chosen version
 git diff - manual resolving
 git revert <HASH-code> - undo merge
