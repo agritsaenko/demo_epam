@@ -44,3 +44,4 @@ Fast-forward merge:
 git merge <feature_name> - to merge branch in some other branch or to main - use this command in branch to which need to merge all changes
 
 Non fast-forward merge:
+some new content
