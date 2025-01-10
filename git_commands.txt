@@ -67,3 +67,4 @@ git stash save "description" - save work in stash
 git stash list - show list of stash folders
 git stash pop - bring them back and remove from stash
 git stash apply - bring them back and leave in stash
+git stash drop - remove and clear stash
