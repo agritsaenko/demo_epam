@@ -61,3 +61,9 @@ git tag <name_of_tag> - mark commit with tag
 git tag -list - to view list of tags
 git push --tags - push tags to repository
 git checkout <name_of_tag> - to check it out through tags but to HASH-number
+
+Stash - place where we can save unfinished work which we don't want to commit (work in progress):
+git stash save "description" - save work in stash
+git stash list - show list of stash folders
+git stash pop - bring them back and remove from stash
+git stash apply - bring them back and leave in stash
